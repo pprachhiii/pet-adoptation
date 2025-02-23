@@ -1,0 +1,28 @@
+.loader{
+    border: 40px solid #f3f3f3;
+    border-top: 40px solid rgb(255, 252, 52);
+    height:300px;
+    width:300px;
+    border-radius: 50%; 
+    animation: roll 2s linear infinite; 
+}
+@keyframes roll{
+    0%{
+        transform: rotate(0deg);
+    }
+    20%{
+        transform: rotate(45deg);
+    }
+    40%{
+        transform: rotate(90deg);
+    }
+    60%{
+        transform: rotate(180deg);
+    }
+    80%{
+        transform: rotate(240deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
